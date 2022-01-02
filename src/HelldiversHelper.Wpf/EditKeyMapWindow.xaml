@@ -1,0 +1,30 @@
+﻿<Window x:Class="HelldiversHelper.Wpf.EditKeyMapWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        mc:Ignorable="d"
+        Title="Add Stratagem Hotkey" Height="150" Width="500" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Stratagem" Margin="5" />
+        <ComboBox x:Name="ComboBoxStratagem" Grid.Row="0" Grid.Column="1" Margin="5" TabIndex="0" />
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Key" Margin="5" />
+        <ComboBox x:Name="ComboBoxKey" Grid.Row="1" Grid.Column="1" Margin="5" TabIndex="1" />
+
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Orientation="Horizontal">
+            <Button Content="OK" Width="60" Margin="0, 0, 5, 0" IsDefault="True" TabIndex="2" Click="ButtonOk_OnClick" />
+            <Button Content="Cancel" Width="60" IsCancel="True" TabIndex="3" />
+        </StackPanel>
+    </Grid>
+</Window>

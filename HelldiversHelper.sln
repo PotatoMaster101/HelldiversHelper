@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0AD2B927-FAC7-4791-AB90-0B3C28D0B509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelldiversHelper", "src\HelldiversHelper\HelldiversHelper.csproj", "{F21767BD-CC58-40DA-A042-E48020A2559A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelldiversHelper.Wpf", "src\HelldiversHelper.Wpf\HelldiversHelper.Wpf.csproj", "{2C6A9C3C-2FB3-4B09-8411-2D58E6A58DEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F21767BD-CC58-40DA-A042-E48020A2559A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21767BD-CC58-40DA-A042-E48020A2559A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21767BD-CC58-40DA-A042-E48020A2559A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21767BD-CC58-40DA-A042-E48020A2559A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6A9C3C-2FB3-4B09-8411-2D58E6A58DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6A9C3C-2FB3-4B09-8411-2D58E6A58DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6A9C3C-2FB3-4B09-8411-2D58E6A58DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6A9C3C-2FB3-4B09-8411-2D58E6A58DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F21767BD-CC58-40DA-A042-E48020A2559A} = {0AD2B927-FAC7-4791-AB90-0B3C28D0B509}
+		{2C6A9C3C-2FB3-4B09-8411-2D58E6A58DEA} = {0AD2B927-FAC7-4791-AB90-0B3C28D0B509}
+	EndGlobalSection
+EndGlobal

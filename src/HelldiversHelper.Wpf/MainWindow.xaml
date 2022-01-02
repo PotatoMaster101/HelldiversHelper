@@ -1,0 +1,24 @@
+﻿<Window x:Class="HelldiversHelper.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Helldivers Helper" Height="300" Width="500" WindowStartupLocation="CenterScreen"
+        Closing="Window_OnClosing">
+    <Grid Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <GroupBox Grid.Row="0" Margin="5" Header="Hotkeys">
+            <ListBox x:Name="ListBoxKeyMappings"/>
+        </GroupBox>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5">
+            <Button Content="Add" Height="25" Width="60" Margin="0, 0, 5, 0" Click="ButtonAdd_OnClick" />
+            <Button Content="Remove" Height="25" Width="60" Margin="0, 0, 5, 0" Click="ButtonRemove_OnClick" />
+            <Button Content="Clear" Height="25" Width="60" Click="ButtonClear_OnClick" />
+        </StackPanel>
+    </Grid>
+</Window>
