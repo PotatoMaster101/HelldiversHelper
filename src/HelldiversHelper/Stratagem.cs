@@ -84,7 +84,7 @@ public class Stratagem
         new Stratagem("Railcannon Strike", new[] { KeyCode.D, KeyCode.S, KeyCode.W, KeyCode.S, KeyCode.A }),
         new Stratagem("Shredder Missile Strike", new[] { KeyCode.D, KeyCode.A, KeyCode.D, KeyCode.A, KeyCode.S, KeyCode.S, KeyCode.D }),
         new Stratagem("Sledge Precision Artillery", new[] { KeyCode.D, KeyCode.W, KeyCode.A, KeyCode.W, KeyCode.S, KeyCode.D }),
-        new Stratagem("Static Field Conductors", new[] { KeyCode.D, KeyCode.W, KeyCode.A, KeyCode.D }),
+        new Stratagem("Static Field Conductors", new[] { KeyCode.D, KeyCode.W, KeyCode.A, KeyCode.S }),
         new Stratagem("Strafing Run", new[] { KeyCode.D, KeyCode.D, KeyCode.W }),
         new Stratagem("Thunderer Barrage", new[] { KeyCode.D, KeyCode.S, KeyCode.W, KeyCode.W, KeyCode.A, KeyCode.S }),
         new Stratagem("Vindicator Dive Bomb", new[] { KeyCode.D, KeyCode.D, KeyCode.D }),
