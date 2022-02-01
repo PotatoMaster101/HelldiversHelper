@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
 using WindowsInput.Events;
 
@@ -33,7 +34,7 @@ public partial class EditKeyMapWindow
     {
         InitializeComponent();
 
-        foreach (var stratagem in Stratagem.Collection)
+        foreach (var stratagem in Stratagem.Collection.OrderBy(x => x.Name))
             ComboBoxStratagem.Items.Add(stratagem.Name);
         foreach (var key in _supportedKeys)
             ComboBoxKey.Items.Add(key.ToString());
