@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 using WindowsInput.Events;
 
 namespace HelldiversHelper.Wpf;
@@ -63,6 +64,18 @@ public partial class MainWindow
     {
         ListBoxKeyMappings.Items.Clear();
         GlobalKeyMapper.KeyMappings.Clear();
+    }
+
+    /// <summary>
+    /// Invoked when activate button is clicked.
+    /// </summary>
+    /// <param name="sender">The event sender.</param>
+    /// <param name="e">The event arguments.</param>
+    private void ButtonActivate_OnClick(object sender, RoutedEventArgs e)
+    {
+        GlobalKeyMapper.Active = !GlobalKeyMapper.Active;
+        if (sender is Button btn)
+            btn.Content = GlobalKeyMapper.Active ? "Deactivate" : "Activate";
     }
 
     /// <summary>

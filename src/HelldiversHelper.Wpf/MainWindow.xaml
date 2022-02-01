@@ -18,7 +18,8 @@
         <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5">
             <Button Content="Add" Height="25" Width="60" Margin="0, 0, 5, 0" Click="ButtonAdd_OnClick" />
             <Button Content="Remove" Height="25" Width="60" Margin="0, 0, 5, 0" Click="ButtonRemove_OnClick" />
-            <Button Content="Clear" Height="25" Width="60" Click="ButtonClear_OnClick" />
+            <Button Content="Clear" Height="25" Width="60" Margin="0, 0, 5, 0" Click="ButtonClear_OnClick" />
+            <Button Content="Deactivate" Height="25" Width="60" Click="ButtonActivate_OnClick" />
         </StackPanel>
     </Grid>
 </Window>
