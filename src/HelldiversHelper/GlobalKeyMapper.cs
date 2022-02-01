@@ -10,6 +10,12 @@ namespace HelldiversHelper;
 public static class GlobalKeyMapper
 {
     /// <summary>
+    /// Gets or sets whether the key mappings are active.
+    /// </summary>
+    /// <value>Whether the key mappings are active.</value>
+    public static bool Active { get; set; } = true;
+
+    /// <summary>
     /// Gets the key mappings.
     /// </summary>
     /// <value>The key mappings.</value>
@@ -32,6 +38,9 @@ public static class GlobalKeyMapper
     {
         Keyboard.KeyEvent += async (_, args) =>
         {
+            if (!Active)
+                return;
+
             var key = args.Data?.KeyDown?.Key;
             if (key is not null && KeyMappings.TryGetValue(key.Value, out var result))
                 await result.Activate();
