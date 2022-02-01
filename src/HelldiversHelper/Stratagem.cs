@@ -77,7 +77,7 @@ public class Stratagem
         // offensive
         new Stratagem("Airstrike", new[] { KeyCode.D, KeyCode.W, KeyCode.S, KeyCode.D, KeyCode.A }),
         new Stratagem("Close Air Support", new[] { KeyCode.D, KeyCode.D, KeyCode.S, KeyCode.A }),
-        new Stratagem("Heavy Strafing Run", new[] { KeyCode.D, KeyCode.D, KeyCode.S, KeyCode.A }),
+        new Stratagem("Heavy Strafing Run", new[] { KeyCode.D, KeyCode.D, KeyCode.S, KeyCode.W }),
         new Stratagem("Incendiary Bombs", new[] { KeyCode.D, KeyCode.W, KeyCode.A, KeyCode.D }),
         new Stratagem("Missile Barrage", new[] { KeyCode.D, KeyCode.S, KeyCode.S, KeyCode.S, KeyCode.A, KeyCode.S }),
         new Stratagem("Orbital Laser Strike", new[] { KeyCode.D, KeyCode.W, KeyCode.A, KeyCode.W, KeyCode.D, KeyCode.A }),
