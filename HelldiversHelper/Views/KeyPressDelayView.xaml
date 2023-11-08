@@ -1,0 +1,40 @@
+﻿<views:BaseWindow x:Class="HelldiversHelper.Views.KeyPressDelayView"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  xmlns:res="clr-namespace:HelldiversHelper.Resources"
+                  xmlns:views="clr-namespace:HelldiversHelper.Views"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  mc:Ignorable="d"
+                  Height="150"
+                  ResizeMode="NoResize"
+                  ShowInTaskbar="False"
+                  Title="{Binding Title}"
+                  Width="400"
+                  WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" Text="{x:Static res:ResourceStrings.KeyPressDelay}" />
+                <TextBox Grid.Column="2" Text="{Binding Delay, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBlock Grid.Column="4" Text="{x:Static res:ResourceStrings.Milliseconds}" />
+            </Grid>
+
+            <views:DialogButtons Grid.Row="2" HorizontalAlignment="Right" />
+        </Grid>
+    </Grid>
+</views:BaseWindow>

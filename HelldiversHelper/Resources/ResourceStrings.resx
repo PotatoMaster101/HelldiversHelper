@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="HelldiversHelper" xml:space="preserve">
+        <value>Helldivers Helper</value>
+    </data>
+    <data name="Warning" xml:space="preserve">
+        <value>Warning</value>
+    </data>
+    <data name="SetLanguageWarning" xml:space="preserve">
+        <value>Changing the language requires application restart.</value>
+    </data>
+    <data name="Ok" xml:space="preserve">
+        <value>OK</value>
+    </data>
+    <data name="Cancel" xml:space="preserve">
+        <value>Cancel</value>
+    </data>
+    <data name="Combos" xml:space="preserve">
+        <value>Combos</value>
+    </data>
+    <data name="Add" xml:space="preserve">
+        <value>Add</value>
+    </data>
+    <data name="Remove" xml:space="preserve">
+        <value>Remove</value>
+    </data>
+    <data name="Language" xml:space="preserve">
+        <value>Language</value>
+    </data>
+    <data name="AddCombo" xml:space="preserve">
+        <value>Add Combo</value>
+    </data>
+    <data name="Stratagem" xml:space="preserve">
+        <value>Stratagem</value>
+    </data>
+    <data name="TriggerKey" xml:space="preserve">
+        <value>Trigger Key</value>
+    </data>
+    <data name="ModifierKeys" xml:space="preserve">
+        <value>Modifier Keys</value>
+    </data>
+    <data name="Listening" xml:space="preserve">
+        <value>Listening</value>
+    </data>
+    <data name="FinishInputBeforeClosing" xml:space="preserve">
+        <value>Finish inputting the key before closing.</value>
+    </data>
+    <data name="SameTriggerExists" xml:space="preserve">
+        <value>Same trigger already exists.</value>
+    </data>
+    <data name="Import" xml:space="preserve">
+        <value>Import</value>
+    </data>
+    <data name="Export" xml:space="preserve">
+        <value>Export</value>
+    </data>
+    <data name="File" xml:space="preserve">
+        <value>File</value>
+    </data>
+    <data name="Error" xml:space="preserve">
+        <value>Error</value>
+    </data>
+    <data name="Enabled" xml:space="preserve">
+        <value>Enabled</value>
+    </data>
+    <data name="Settings" xml:space="preserve">
+        <value>Settings</value>
+    </data>
+    <data name="KeyPressDelay" xml:space="preserve">
+        <value>Key Press Delay</value>
+    </data>
+    <data name="DelayOutOfRange" xml:space="preserve">
+        <value>Delay should be at least {0}.</value>
+    </data>
+    <data name="SetKeyPressDelay" xml:space="preserve">
+        <value>Set Key Press Delay</value>
+    </data>
+    <data name="Milliseconds" xml:space="preserve">
+        <value>Milliseconds</value>
+    </data>
+</root>
